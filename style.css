@@ -1,14 +1,36 @@
 h1 
 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:24px;
+    background-color: white; 
+    border-radius: 4px;
+    color: #3251ff;
+    padding: 1px 135px;
     text-align: center;
-    color: rgb(0, 0, 0);
-	text-shadow: 2px 1px 1px rgba(11, 0, 170, 0.2)	
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 15px;
+    border-bottom: 4px solid #3251ff;
+} 
+h2 
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white; 
+    border-radius: 4px;
+    color: #3251ff;
+    padding: 4px 135px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    max-width: 250px;
+    font-size: 20px;
+    margin: 4px 2px;
+    border: 2px solid #3251ff;
 } 
 body 
 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
     text-align: center;
     color: rgb(0, 0, 0);
 } 
@@ -16,7 +38,6 @@ body
     float: left;
     width: 30%;
     padding: 5px;
-    border: 3px solid rgb(19, 66, 136);
     min-height: 20px;
 }
 
@@ -25,3 +46,39 @@ body
     content: "";
     clear: both;
 }
+.dropbtn {
+    background-color: #3251ff; 
+    border-radius: 4px;
+    color: white;
+    padding: 13px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid #3251ff;
+    transition-duration: 0.2s;
+  }
+  .dropbtn:hover {
+    background-color: white;
+    font-size:20px;
+    margin: 4px 2px;
+    color: #3251ff;
+    border: 2px solid #3251ff;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    color: #3251ff;
+    border: 2px solid #3251ff;
+    display: none;
+    position: absolute;
+    border-radius: 4px;
+    background-color: #ffffff;
+    min-width: 160px;
+    overflow: auto;
+  }
+  .show {display: block;}
