@@ -25,28 +25,38 @@
         <polyline points="4 15 8 9 12 10 14 6 20 3" />
         </svg> -->
         
-        <div class="dropdown">
-            <button class="dropbtn" onClick="ShowExercises()">Exercise selection</button>
-            <div id="myDropdown" class="dropdown-content">
-                <a>Dumbell Lateral Raise</a>
-                <a>Seated Cable Row</a>
-                <a>Machine Chest Press</a>
-                <a>Horizontal Leg Press</a>
-                <a>Lat Pulldown</a>
-                <a>Lever Seated Dip</a>
-                <a>Lever Bicep Curl</a>
-                <a>Dumbell Seated Overhead Press</a>
-                <a>Hip Adduction</a>
-                <a>Leg Curl</a>
+            <div class="dropdown">
+                <button class="dropbtn" onClick="ShowExercises()">Exercise</button>
+                <div id="ExerciseDropdown" class="dropdown-content">
+                    <a>Dumbell Lateral Raise</a>
+                    <a>Seated Cable Row</a>
+                    <a>Machine Chest Press</a>
+                    <a>Horizontal Leg Press</a>
+                    <a>Lat Pulldown</a>
+                    <a>Lever Seated Dip</a>
+                    <a>Lever Bicep Curl</a>
+                    <a>Dumbell Seated Overhead Press</a>
+                    <a>Hip Adduction</a>
+                    <a>Leg Curl</a>
+                </div>
             </div>
-        </div>
-        <div class="dropdown">
-            <button class="dropbtn" onClick="ShowStats()">Stats selection</button>
+            <div class="dropdown">
+                <button class="dropbtn" onClick="ShowStats()">Statistics</button>
+                <div id="StatsDropdown" class="dropdown-content">
+                    <a>Total Workout Volume</a>
+                    <a>Estimated One Rep Max</a>
+                    <a>Max Workout Volume</a>
+                    <a>Max Weight</a>
+                    <a>Max Reps</a>
+                    <a>Total Reps</a>
+                    <a>Total Sets</a>
+                    <a>Total Workouts</a>
+                </div>
             </div>
         </div>
         <br>
         <h2>
-            Progress graphic
+            Progress
         </h2>
         <br><br>
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chart-bar" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -59,12 +69,15 @@
         <br>
         <div>
             <br>
-            <h2>Sets and reps
+            <h2>History
             </h2>
             <br><br>
             <img src="assets/dumbell.svg" style="width: 40px" class="filter-invert">
         </div>
-        <p>Todo: read data from Google Spreadsheet</p>
+        <h2>To do</h2>
+        <p>Read data from Google Spreadsheet</p>
+        <p>Identify sets and reps, warm up</p>
+        <p>Replace button name with the chosen option</p>
         <script src="app.js"></script>
     </body>
 </html>
