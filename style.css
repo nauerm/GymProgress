@@ -5,7 +5,7 @@ h1
     border-radius: 4px;
     color: aquamarine;
     padding: 5px 10px;
-    min-width: 700px;
+    min-width: calc(100%/2.74);
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -22,7 +22,7 @@ h2
     border-radius: 4px;
     color: aquamarine;
     padding: 4px 10px;
-    min-width: 700px;
+    min-width: calc(100%/2.74)px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
