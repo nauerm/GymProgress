@@ -1,38 +1,43 @@
 h1 
 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: white; 
+    background-color: rgb(60, 60, 65);
     border-radius: 4px;
-    color: #3251ff;
-    padding: 1px 135px;
+    color: aquamarine;
+    padding: 5px 10px;
+    min-width: 700px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 24px;
+    font-size: 48px;
     margin: 15px;
-    border-bottom: 4px solid #3251ff;
+    border-bottom: 4px solid aquamarine;
 } 
 h2 
 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: white; 
+    font-size: 30px;
+    background-color: rgb(60, 60, 65);
+    font-weight:light;
     border-radius: 4px;
-    color: #3251ff;
-    padding: 4px 135px;
+    color: aquamarine;
+    padding: 4px 10px;
+    min-width: 700px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     max-width: 250px;
-    font-size: 20px;
     margin: 4px 2px;
-    border: 2px solid #3251ff;
+    border-top: 2px solid aquamarine;
+    border-bottom: 2px solid aquamarine;
 } 
 body 
 {
+    background-color: rgb(60, 60, 65);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: white;
 } 
 .column {
     float: left;
@@ -47,38 +52,58 @@ body
     clear: both;
 }
 .dropbtn {
-    background-color: #3251ff; 
+    background-color: rgb(60, 60, 65);
+    font-size: 30px;
     border-radius: 4px;
-    color: white;
+    min-width: 350px;
+    font-weight: bold;
+    color: aquamarine;
     padding: 13px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
     margin: 4px 2px;
     cursor: pointer;
-    border: 2px solid #3251ff;
+    border: 4px solid aquamarine;
     transition-duration: 0.2s;
   }
   .dropbtn:hover {
-    background-color: white;
-    font-size:20px;
+    background-color: rgb(90, 90, 95);
     margin: 4px 2px;
-    color: #3251ff;
-    border: 2px solid #3251ff;
+    color: aquamarine;
+    border: 4px solid aquamarine;
+    cursor:pointer;
   }
   .dropdown {
     position: relative;
     display: inline-block;
+    z-index: 100;
   }
   .dropdown-content {
-    color: #3251ff;
-    border: 2px solid #3251ff;
+    color: aquamarine;
+    font-size:24px;
+    border: 4px solid aquamarine;
+    margin: auto;
     display: none;
+    box-sizing: border-box;
+    width: 100%;
     position: absolute;
     border-radius: 4px;
-    background-color: #ffffff;
-    min-width: 160px;
+    background-color: rgb(60, 60, 65);
     overflow: auto;
   }
-  .show {display: block;}
+  .dropdown-content a {
+    text-decoration: none;
+    display: block;
+    padding:5px;
+  }
+  .dropdown-content a:hover {
+    background-color: rgb(90, 90, 95);
+    cursor:pointer;
+  }
+  .show {
+    display: block;
+  }
+  .filter-invert {
+    filter: invert(100%);
+  }

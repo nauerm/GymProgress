@@ -7,8 +7,7 @@
         <title>Gym Progress</title>
         <h1>Gym Progress</h1>
     </head>
-    <body>
-        <hr>        
+    <body>  
         <div>        
         <!-- <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-list" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -29,28 +28,28 @@
         <div class="dropdown">
             <button class="dropbtn" onClick="ShowExercises()">Exercise selection</button>
             <div id="myDropdown" class="dropdown-content">
-                <a>Dumbell Lateral Raise</a><br>
-                <a>Seated Cable Row</a><br>
-                <a>Machine Chest Press</a><br>
-                <a>Horizontal Leg Press</a><br>
-                <a>Lat Pulldown</a><br>
-                <a>Lever Seated Dip</a><br>
-                <a>Lever Bicep Curl</a><br>
-                <a>Dumbell Seated Overhead Press</a><br>
-                <a>Hip Adduction</a><br>
-                <a>Leg Curl</a><br>
+                <a>Dumbell Lateral Raise</a>
+                <a>Seated Cable Row</a>
+                <a>Machine Chest Press</a>
+                <a>Horizontal Leg Press</a>
+                <a>Lat Pulldown</a>
+                <a>Lever Seated Dip</a>
+                <a>Lever Bicep Curl</a>
+                <a>Dumbell Seated Overhead Press</a>
+                <a>Hip Adduction</a>
+                <a>Leg Curl</a>
             </div>
         </div>
         <div class="dropdown">
             <button class="dropbtn" onClick="ShowStats()">Stats selection</button>
             </div>
         </div>
-        <hr>
+        <br>
         <h2>
             Progress graphic
         </h2>
-        <br>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chart-bar" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <br><br>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chart-bar" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <rect x="3" y="14" width="4" height="6" rx="1" />
             <rect x="9" y="8" width="4" height="12" rx="1" />
@@ -58,18 +57,13 @@
             <line x1="4" y1="20" x2="18" y2="20" />
           </svg>
         <br>
-        <hr>
         <div>
             <br>
-            <h2>
-                Daily log: 
-                <br>
-                Series and reps
+            <h2>Sets and reps
             </h2>
-            <br>
-            <img src="assets/dumbell.svg" style="width: 30px">
+            <br><br>
+            <img src="assets/dumbell.svg" style="width: 40px" class="filter-invert">
         </div>
-        <hr>
         <p>Todo: read data from Google Spreadsheet</p>
         <script src="app.js"></script>
     </body>
