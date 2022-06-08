@@ -53,7 +53,10 @@
                     <a>Total Workouts</a>
                 </div>
             </div>
-        </div>
+            <div class="dropdown">
+                <button class="dropbtn" onClick="">Logger</button>
+            </div>
+    </div>
         <br>
         <h2>
             Progress
@@ -72,13 +75,42 @@
             <h2>History
             </h2>
             <br><br>
-            <img src="assets/dumbell.svg" style="width: 40px" class="filter-invert">
-            <br><br>
+            <table class="date">
+                <th>07/06/22</th>
+            </table>
+            <table class="history">
+                <thead>
+                    <tr class="h-categories">
+                        <th>SET</th>
+                        <th>REPS</th>
+                        <th>WEIGHT</th>
+                        <th>INTENSITY</th>
+                        <th>VOLUME</th>
+                    </tr>
+                    <tr class="h-content">
+                        <th>1</th>
+                        <th>15</th>
+                        <th>4 kg</th>
+                        <th>Warmup</th>
+                        <th>-</th>
+                    <tr class="h-content">
+                        <th>2</th>
+                        <th>12</th>
+                        <th>6 kg</th>
+                        <th>Normal</th>
+                        <th>144 kg</th>
+                    </tr>
+                </thead>
+            </table>
+            <br>
+            <!-- <img src="assets/dumbell.svg" style="width: 40px" class="filter-invert"> -->
+            <br>
         </div>
         <h2>To do</h2>
-        <p>Read data from Google Spreadsheet</p>
+        <p>Log and save data</p>
         <p>Identify sets and reps, warm up</p>
         <p>Replace button name with the chosen option</p>
+        <p>Secondary color: #009578</p>
         <script src="app.js"></script>
     </body>
 </html>
